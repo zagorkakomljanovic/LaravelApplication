@@ -91,7 +91,7 @@ return [
     |
     */
 
-    'key' => env('APP_KEY','I22b/3uOm+B/H793P8aWQ5CucfiCxoMZ/H3JG6aYoLo='),
+    'key' => env('APP_KEY','jn4/E1rdazucRvBSD6SCUgMKJZ08jh/GzS/q+dZVncQ='),
 
     'cipher' => 'AES-256-CBC',
 
@@ -193,7 +193,7 @@ return [
         'Password' => Illuminate\Support\Facades\Password::class,
         'Queue' => Illuminate\Support\Facades\Queue::class,
         'Redirect' => Illuminate\Support\Facades\Redirect::class,
-        'Redis' => Illuminate\Support\Facades\Redis::class,
+        'LaravelRedis'     => Illuminate\Support\Facades\Redis::class,
         'Request' => Illuminate\Support\Facades\Request::class,
         'Response' => Illuminate\Support\Facades\Response::class,
         'Route' => Illuminate\Support\Facades\Route::class,
